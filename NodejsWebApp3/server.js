@@ -12,8 +12,8 @@ var htmlDocument = '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//
 var htmlDocument2 = '</div> <div id=\"footer\"> &copy;2017 AgriAlert &nbsp;<span class=\"separator\">|</span>&nbsp; Design by <a href=\"http://www.realitysoftware.ca\" title=\"Website Design\">Reality Software</a> </div> </div> </body> </html>';
 var plantInfo = [
     ["", "SWELLING", "FIRST COLOR", "FULL BLOOM"],
-    ["APLLE 10% kill", "-9,4", "-2,2", "-2,2"],
-    ["APLLE 90% kill", "-16,7", "-4,4", "-3,9"],
+    ["APPLE 10% kill", "-9,4", "-2,2", "-2,2"],
+    ["APPLE 90% kill", "-16,7", "-4,4", "-3,9"],
     ["PEACH 10% kill", "-7,8", "-3,9", "-2,8"],
     ["PEACH 90% kill", "-17,2", "-9,4", "-4,4"],
     ["PEAR 10% kill", "-9,4", "-3,9", "-2,2"],
@@ -117,10 +117,6 @@ http.createServer(function (req, res) {
             res.write('</ul></font></td></tr>');
             res.write('</table></td>');
         }
-
-        // console.log();
-        // jsonData = JSON.parse(JSON.stringify(results[0][1]));
-        // res.write(jsonData);
         res.end('</tr></table>' + htmlDocument2);
     });
 }).listen(port);
