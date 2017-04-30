@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-web-app3",
+  "version": "0.0.0",
+  "description": "NodejsWebApp3",
+  "main": "server.js",
+  "author": {
+    "name": "Robin"
+  },
+  "dependencies": {
+    "yr.no-forecast": "1.0.1",
+    "js2xmlparser": "3.0.0"
+  }
+}
