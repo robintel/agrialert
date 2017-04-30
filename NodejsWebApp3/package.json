@@ -1,13 +1,16 @@
 {
-  "name": "nodejs-web-app3",
-  "version": "0.0.0",
-  "description": "NodejsWebApp3",
+  "name": "agrialert",
+  "version": "0.0.1",
+  "description": "AgriAlert shows how bad weather affects crops.",
   "main": "server.js",
   "author": {
-    "name": "Robin"
+    "name": "Robin Molnar"
   },
   "dependencies": {
     "yr.no-forecast": "1.0.1",
     "js2xmlparser": "3.0.0"
+  },
+  "engines": {
+    "node": "6.9.4"
   }
 }
